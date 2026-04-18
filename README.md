@@ -1,21 +1,23 @@
-# GitHub Portfolio Sample
+# Xinyi Shen Portfolio
 
-This is a dummy portfolio website meant to teach the GitHub Pages process.
+This is a simple multi-page portfolio site built with plain HTML and CSS for GitHub Pages.
 
 ## Files
-- `index.html` → main page
-- `style.css` → styling
+- `index.html` — home page
+- `about.html` — about page
+- `projects.html` — projects page
+- `contact.html` — contact page
+- `style.css` — shared styling
+- `assets/Xinyi_Shen_Resume.pdf` — add your resume PDF here
 
-## How to host
-1. Create a GitHub repository
-2. Upload these files
-3. Go to **Settings > Pages**
-4. Under **Build and deployment**, choose **Deploy from a branch**
-5. Select your branch (usually `main`) and folder (`/root`)
-6. Save and wait for GitHub Pages to publish
+## Before publishing
+1. Replace the placeholder LinkedIn and GitHub links.
+2. Replace the placeholder profile photo.
+3. Add your resume PDF to `assets/Xinyi_Shen_Resume.pdf`.
+4. If you want the contact form to work on GitHub Pages, replace the Formspree action URL in `contact.html`.
 
-Your site URL will usually look like:
-- `https://yourusername.github.io/repository-name/`
-
-If the repo is named `yourusername.github.io`, the site URL becomes:
-- `https://yourusername.github.io/`
+## Deploy on GitHub Pages
+1. Upload all files to a GitHub repository.
+2. Go to Settings -> Pages.
+3. Set the source to the main branch and root folder.
+4. Save and wait for GitHub Pages to publish.

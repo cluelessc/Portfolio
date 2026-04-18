@@ -3,69 +3,131 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Alex Carter | Portfolio</title>
+  <title>Xinyi Shen | Portfolio</title>
+  <meta name="description" content="Portfolio website for Xinyi Shen, data analyst with experience in healthcare, SaaS, and market analytics." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
-    <nav>
-      <h1>Alex Carter</h1>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
+  
+<header class="site-header">
+  <div class="container">
+    <div class="brand">
+      <h1>Xinyi Shen</h1>
+      <p>Data Analytics | Strategy | Insights</p>
+    </div>
+    <nav aria-label="Primary navigation">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="assets/Xinyi_Shen_Resume.pdf" target="_blank">Resume</a></li>
       </ul>
     </nav>
-    <div class="hero-text">
-      <p class="tag">Data Analyst | Python | SQL | Power BI</p>
-      <h2>I turn messy data into useful decisions.</h2>
-      <p>Dummy portfolio website built to learn GitHub Pages hosting.</p>
-      <a class="btn" href="#projects">View Projects</a>
-    </div>
-  </header>
+  </div>
+</header>
 
   <main>
-    <section id="about" class="card">
-      <h3>About Me</h3>
-      <p>
-        Hi, I'm Alex. This is a sample portfolio site with dummy content.
-        Replace this with your own bio, interests, academic background, and career goals.
-      </p>
-    </section>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80" alt="Modern city building">
+        </div>
 
-    <section id="projects" class="card">
-      <h3>Projects</h3>
-      <div class="grid">
-        <article>
-          <h4>Sales Dashboard</h4>
-          <p>Built an interactive dashboard to track monthly revenue and customer churn.</p>
-          <p><strong>Tech:</strong> Power BI, Excel, SQL</p>
-        </article>
-        <article>
-          <h4>Resume Screener API</h4>
-          <p>Created a Python API that matches resumes to role requirements using keyword scoring.</p>
-          <p><strong>Tech:</strong> Python, Flask, Pandas</p>
-        </article>
-        <article>
-          <h4>Student Performance Analysis</h4>
-          <p>Analyzed academic records to find patterns affecting student outcomes.</p>
-          <p><strong>Tech:</strong> Python, Jupyter, Matplotlib</p>
-        </article>
+        <div class="profile-card">
+          <div class="profile-photo">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=600&q=80" alt="Portrait placeholder">
+          </div>
+          <h2>Xinyi<br>Shen</h2>
+          <div class="profile-line"></div>
+          <p class="profile-role">DATA ANALYST<br>BUSINESS INTELLIGENCE</p>
+
+          <div class="social-row">
+            <a class="social-pill" href="mailto:shenxinyi0322@gmail.com">Email</a>
+            <a class="social-pill" href="#" target="_blank">LinkedIn</a>
+            <a class="social-pill" href="#" target="_blank">GitHub</a>
+          </div>
+        </div>
+
+        <div class="hero-copy">
+          <h2>Hello</h2>
+          <h3>Here’s who I am and what I do</h3>
+          <div class="button-row">
+            <a class="btn btn-secondary" href="projects.html">Projects</a>
+            <a class="btn btn-primary" href="about.html">About Me</a>
+          </div>
+          <p>
+            I am a data analyst with a Master's in Quantitative Management from Duke University's
+            Fuqua School of Business and a background in biochemistry and communication from UCLA.
+            I use analytics, experimentation, and storytelling to turn data into business decisions.
+          </p>
+
+          <div class="resume-banner">
+            <div>
+              <strong>Resume ready</strong><br>
+              <span class="muted">Click below to open or download your resume from the site.</span>
+            </div>
+            <a class="btn btn-light" href="assets/Xinyi_Shen_Resume.pdf" target="_blank">Download Resume</a>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="skills" class="card">
-      <h3>Skills</h3>
-      <p>Python • SQL • Java • Power BI • Tableau • Excel • Git • HTML • CSS</p>
-    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>What I bring</h2>
+          <p>
+            My work blends technical analysis with business context across healthcare, SaaS, and market intelligence.
+          </p>
+        </div>
 
-    <section id="contact" class="card">
-      <h3>Contact</h3>
-      <p>Email: alexcarter@example.com</p>
-      <p>GitHub: github.com/alexcarter</p>
-      <p>LinkedIn: linkedin.com/in/alexcarter</p>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Analytics & BI</h3>
+            <p>Build dashboards, KPI tracking, reporting workflows, and insight summaries for decision-makers.</p>
+            <div class="tag-row">
+              <span class="tag">SQL</span>
+              <span class="tag">Tableau</span>
+              <span class="tag">Power BI</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Experimentation</h3>
+            <p>Support A/B testing, statistical analysis, and performance measurement to guide product and business strategy.</p>
+            <div class="tag-row">
+              <span class="tag">A/B Testing</span>
+              <span class="tag">Statistics</span>
+              <span class="tag">Python</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Forecasting & Modeling</h3>
+            <p>Apply machine learning and time series techniques to identify patterns and improve planning.</p>
+            <div class="tag-row">
+              <span class="tag">Machine Learning</span>
+              <span class="tag">Time Series</span>
+              <span class="tag">Strategy</span>
+            </div>
+          </article>
+        </div>
+      </div>
     </section>
   </main>
+  
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2026 Xinyi Shen. Built with HTML and CSS for GitHub Pages.</p>
+    <p>
+      <a href="mailto:shenxinyi0322@gmail.com">shenxinyi0322@gmail.com</a>
+    </p>
+  </div>
+</footer>
+
 </body>
 </html>
